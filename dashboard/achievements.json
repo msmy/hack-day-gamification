@@ -26,14 +26,15 @@
       "type": "P"
     },
     {
-      "name": "walking zombie",
-      "description": "watched all seasons of walking dead",
+      "name": "Movie guru",
+      "description": "watched 100 movies on NowTV",
       "complete": false
     },
     {
-      "name": "zombiefied",
-      "description": "watched all seasons of walking dead",
-      "complete": false
+      "name": "One ring to rule them all",
+      "description": "Watch Lord of the rings box set",
+      "complete": false,
+      "className": "frodo"
     }
   ]
 }

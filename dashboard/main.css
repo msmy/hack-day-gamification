@@ -158,6 +158,7 @@ h1 {
     margin-left: 25px;
 }
 
+#head-to-head > ul > li > div,
 #you-may-like__achievements > ul > li > div {
     display: inline-block;
     height: 50px;
@@ -227,4 +228,23 @@ h1 {
     transform-origin: 60px 0;
     -webkit-animation: rotation linear 2s infinite;
     animation: rotation linear 2s infinite;
+}
+
+
+#you-may-like__achievements .icon.frodo {
+    background-image: url(frodo.png);
+}
+
+#head-to-head {
+    background-color: #4FADE7;
+}
+
+#head-to-head h4 {
+    margin-left: 25px;
+    padding-top: 25px;
+    margin-bottom: 35px;
+}
+
+#head-to-head > ul > li > div {
+    padding-top: 10px;
 }

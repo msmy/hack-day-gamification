@@ -1,4 +1,15 @@
 /*
 Just draw a border round the document.body.
 */
-document.body.style.border = "5px solid red";
+(function() {
+
+    var
+
+    init = function() {
+
+        alert('dome ready');
+    };
+
+    $(init);
+
+})();

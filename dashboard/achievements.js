@@ -64,7 +64,7 @@
             }
 
             listItem.append('<div class="icon '+ className+'"></div>')
-            listItem.append('<div style="text-align: center; border-radius: 50%; height: 38px; padding: 10px; border: 1px solid white; font-size: 20px; font-weight: bold">'+i.position+'</div><div>'+i.userName+'</div><div style="font-size: 12px">(Trophies: '+i.trophyCount+')</div>');
+            listItem.append('<div style="text-align: center; border-radius: 50%; height: 38px; padding: 10px; font-size: 20px; font-weight: bold">'+i.position+'</div><div>'+i.userName+'</div><div style="font-size: 12px">(Trophies: '+i.trophyCount+')</div>');
             list.append(listItem)
 
         });

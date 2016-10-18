@@ -29,6 +29,7 @@ Just draw a border round the document.body.
 
             div.append('<div style="padding: 0 20px; opacity: 1; background: black; top: 0; position:absolute; width: 300px; border: 1px solid #fff; height: 100px;"><h4 style="font-weight: bold;">Congratulations!</h4><i class="fa fa-trophy" aria-hidden="true"></i><span>You have started watching alan partridge</span>' +
                 '<br /><a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=Achievement%20Won!">Tweet</a>' +
+                '<img src="images/zombie-badge-1.png"/>' +
                 '</div>');
 
 

@@ -26,9 +26,13 @@
 
         data.achievements.forEach(function(i) {
 
-            var listItem = $('<li />');
+            var listItem = $('<li />'), className ='';
 
-            listItem.append('<div class="icon"></div>')
+            if (i.className) {
+                className = i.className;
+            }
+
+            listItem.append('<div class="icon '+ className+'"></div>')
             listItem.append('<div>'+i.name+'</div><div style="font-size: 12px">'+i.description+'</div>');
             list.append(listItem)
 

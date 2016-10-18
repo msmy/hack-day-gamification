@@ -173,3 +173,7 @@ h1 {
     background-size: cover;
     background-repeat:no-repeat;
 }
+
+#you-may-like__achievements .icon.frodo {
+    background-image: url(frodo.png);
+}

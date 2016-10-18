@@ -7,7 +7,7 @@ h1 {
 }
 
 .profile-section {
-    background-color: coral;
+    background-color: #e72f8d;
 }
 
 .season-section {
@@ -15,12 +15,12 @@ h1 {
 }
 
 .season-section-mystery {
-    background-color: rgba(255, 150, 61, 0.67);
+    background-color: #f0672b;
 }
 
 .section {
     display: relative;
-    height: 300px;
+    height: 340px;
     text-align: center;
 }
 
@@ -51,7 +51,7 @@ h1 {
     margin-left: -300px;
     width: 600px;
     height: 40px;
-    background-color: grey;
+    background-color: #555;
     border: 2px solid deepskyblue;
     border-radius: 25px;
 }
@@ -61,13 +61,13 @@ h1 {
     width: 1%;
     height: 100%;
     background-color: #37ac47;
-    border: 2px solid grey;
+    border: 2px solid #545;
     border-radius: 25px 0 0 25px;
 }
 
 .profile-section .level{
     position: relative;
-    top: 60px;
+    top: 75px;
 }
 
 #label {
@@ -105,6 +105,10 @@ h1 {
 
 .see-through{
     opacity: 0.3;
+}
+
+.see-through:hover{
+    opacity: 1;
 }
 
 .season h1 {
@@ -172,4 +176,55 @@ h1 {
     background: url(06-partridge-bbc.jpg);
     background-size: cover;
     background-repeat:no-repeat;
+}
+
+@-webkit-keyframes rotation {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotation {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+.circle-selected {
+    margin-top: 8px;
+}
+.circle-spin {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    border: 1px solid rgba(127, 176, 255, 0.5);
+    box-shadow: 0px 0px 40px rgba(30, 183, 133, 0.5), inset 0px 0px 40px white;
+    margin: auto;
+    position: relative;
+    margin-top: 20px;
+    margin-right: 19px;
+}
+.circle-spin ::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 15px;
+    position: absolute;
+    top: calc(50% - 5px);
+    left: 2px;
+    box-shadow: 0px 0px 50px 13px white;
+    -webkit-transform-origin: 100px 0;
+    transform-origin: 60px 0;
+    -webkit-animation: rotation linear 2s infinite;
+    animation: rotation linear 2s infinite;
 }

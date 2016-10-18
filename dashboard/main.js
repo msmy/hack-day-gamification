@@ -2,13 +2,13 @@
 $( document ).ready(function() {
     console.log( "ready!" );
 
-    move(40);
+    move(80); // Could get from API
 });
 
 function move(percentage) {
     var elem = document.getElementById("myBar");
     var width = 1;
-    var id = setInterval(frame, 10);
+    var id = setInterval(frame, 20);
     function frame() {
         if(!percentage) {
             percentage = 100;

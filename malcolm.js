@@ -28,7 +28,7 @@ Just draw a border round the document.body.
     unlockAchievement = function() {
         $('#first').css({
             opacity: 1,
-            filter: none;
+            filter: none
         })
     },
 

@@ -2,6 +2,10 @@ body {
     color: white;
 }
 
+h1 {
+    padding-top: 10px;
+}
+
 .profile-section {
     background-color: coral;
 }
@@ -33,7 +37,7 @@ body {
     color: black;
 }
 .level-label button{
-    width: 100px;
+    width: 130px;
 }
 #progress-bar {
     position: relative;
@@ -43,7 +47,7 @@ body {
     width: 600px;
     height: 40px;
     background-color: grey;
-    border: 2px solid black;
+    border: 2px solid deepskyblue;
     border-radius: 25px;
 }
 
@@ -51,14 +55,14 @@ body {
     position: absolute;
     width: 1%;
     height: 100%;
-    background-color: green;
-    border: 1px solid black;
-    border-radius: 25px;
+    background-color: #37ac47;
+    border: 2px solid grey;
+    border-radius: 25px 0 0 25px;
 }
 
 .profile-section .level{
     position: relative;
-    top: 80px;
+    top: 60px;
 }
 
 #label {
@@ -104,6 +108,14 @@ body {
     border: 8px solid white;
     border-radius: 50%;
     margin: 20px;
+}
+
+.white-border {
+    border-color: white;
+}
+
+.red-border {
+    border-color: red;
 }
 
 .circle span {

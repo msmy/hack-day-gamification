@@ -1,0 +1,24 @@
+{
+  "name": "hack-day-gamification",
+  "version": "1.0.0",
+  "description": "hack day",
+  "main": "malcolm.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msmy/hack-day-gamification.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/msmy/hack-day-gamification/issues"
+  },
+  "homepage": "https://github.com/msmy/hack-day-gamification#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "nprogress": "^0.2.0"
+  }
+}

@@ -1,3 +1,3 @@
 # hack-day-gamification
 
-## What it does
+This simple proof of concept gamification with medals and achievements

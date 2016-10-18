@@ -19,7 +19,7 @@
   "content_scripts": [
     {
       "matches": ["*://*.nowtv.com/*"],
-      "js": ["jquery-3.1.1.min.js", "malcolm.js"]
+      "js": ["jquery-3.1.1.min.js", "malcolm.js", "achievements-link.js"]
     }
   ]
 

@@ -1,0 +1,35 @@
+{
+  "userId": 1234,
+  "achievements": [
+    {
+      "name": "Partridge baby",
+      "description": "started watching alan partridge",
+      "complete": true
+    },
+    {
+      "name": "25% watched alan partridge",
+      "description": "25% watched alan partridge",
+      "complete": false
+    },
+    {
+      "name": "50% watched alan partridge",
+      "description": "50% watched alan partridge",
+      "complete": false
+    },
+    {
+      "name": "100% watched alan partridge",
+      "description": "100% watched alan partridge",
+      "complete": false
+    },
+    {
+      "name": "walking zombie",
+      "description": "watched all seasons of walking dead",
+      "complete": false
+    },
+    {
+      "name": "zombiefied",
+      "description": "watched all seasons of walking dead",
+      "complete": false
+    }
+  ]
+}

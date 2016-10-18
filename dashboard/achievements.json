@@ -4,22 +4,26 @@
     {
       "name": "Partridge baby",
       "description": "started watching alan partridge",
-      "complete": true
+      "complete": true,
+      "type": "P"
     },
     {
       "name": "25% watched alan partridge",
       "description": "25% watched alan partridge",
-      "complete": false
+      "complete": false,
+      "type": "P"
     },
     {
       "name": "50% watched alan partridge",
       "description": "50% watched alan partridge",
-      "complete": false
+      "complete": false,
+      "type": "P"
     },
     {
       "name": "100% watched alan partridge",
       "description": "100% watched alan partridge",
-      "complete": false
+      "complete": false,
+      "type": "P"
     },
     {
       "name": "walking zombie",

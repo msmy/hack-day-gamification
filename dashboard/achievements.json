@@ -3,25 +3,25 @@
   "achievements": [
     {
       "name": "Partridge baby",
-      "description": "started watching alan partridge",
+      "description": "You started watching Alan Partridge!",
       "complete": true,
       "type": "P"
     },
     {
-      "name": "25% watched alan partridge",
+      "name": "Whats your favourite beetles album?",
       "description": "25% watched alan partridge",
       "complete": false,
       "type": "P"
     },
     {
-      "name": "50% watched alan partridge",
-      "description": "50% watched alan partridge",
+      "name": "Mary Poppins! Whats that?",
+      "description": "Half way through Alan Partridge",
       "complete": false,
       "type": "P"
     },
     {
-      "name": "100% watched alan partridge",
-      "description": "100% watched alan partridge",
+      "name": "I'm Alan Partridge",
+      "description": "You watched all of Alan Partridge",
       "complete": false,
       "type": "P"
     },

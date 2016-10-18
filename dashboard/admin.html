@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script type="text/javascript" src="https://signup.nowtv.com/combo/identity/releases/d92105d/app/dist/1476456054871/global-navigation.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+    <link rel="stylesheet" href="https://signup.nowtv.com/combo/identity/releases/d92105d/app/dist/1476456054871/global-navigation.css">
+
+    <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.18.1/build/cssreset/cssreset-min.css">
+    <link rel="stylesheet" href="//web.static.nowtv.com/web-toolkit/fonts.css">
+    <link rel="stylesheet" href="//web.static.nowtv.com/web-toolkit/0.0.1/styleguide.css">
+    <link rel='stylesheet' href='main.css'/>
+
+</head>
+<body style="color: black">
+<div class="n-global-nav" id="nav"></div>
+<div>
+    <h1>add achievements</h1>
+    <form style="margin-top: 20px;" id="admin-form">
+        <label for="select">Select TV Series</label>
+        <select id="select">
+            <option>Game of thrones</option>
+            <option>The Walking Dead</option>
+            <option>Westworld</option>
+            <option>Billions</option>
+        </select>
+    </form>
+</div>
+</body>
+<script>
+    new NowTVWebNavigation.Navigation(document.querySelector('#nav'));
+
+</script>
+<script src="admin.js"></script>
+</html>

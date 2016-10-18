@@ -29,7 +29,7 @@
             var listItem = $('<li />');
 
             listItem.append('<div class="icon"></div>')
-            listItem.append('<div>'+i.name+'</div><div>'+i.description+'</div>');
+            listItem.append('<div>'+i.name+'</div><div style="font-size: 12px">'+i.description+'</div>');
             list.append(listItem)
 
         });

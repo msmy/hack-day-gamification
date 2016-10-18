@@ -28,3 +28,36 @@
     height: 100%;
     background-color: green;
 }
+
+#you-may-like {
+    background: #138B81;
+    color: #fff;
+}
+
+#you-may-like h4 {
+    margin-left: 25px;
+    padding-top: 25px;
+}
+
+#you-may-like__achievements {
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+#you-may-like__achievements > ul > li > div {
+    display: inline-block;
+    height: 50px;
+    margin: 5px;
+    vertical-align: top;
+}
+
+#you-may-like__achievements .icon {
+    vertical-align: top;
+    display: inline-block;
+    background: blue;
+    height: 50px;
+    width: 50px;
+    background: url(06-partridge-bbc.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+}

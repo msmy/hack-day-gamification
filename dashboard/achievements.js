@@ -28,7 +28,8 @@
 
             var listItem = $('<li />');
 
-            listItem.html('<div>'+i.name+'</div><div>'+i.description+'</div>');
+            listItem.append('<div class="icon"></div>')
+            listItem.append('<div>'+i.name+'</div><div>'+i.description+'</div>');
             list.append(listItem)
 
         });

@@ -1,0 +1,55 @@
+{
+  "count": 10,
+  "leaders": [
+    {
+      "userName": "NowTV Fanboy",
+      "position": 1,
+      "trophyCount": 400
+    },
+    {
+      "userName": "Richard",
+      "position": 2,
+      "trophyCount": 250
+    },
+    {
+      "userName": "Louise",
+      "position": 3,
+      "trophyCount": 100
+    },
+    {
+      "userName": "Chris",
+      "position": 4,
+      "trophyCount": 50
+    },
+    {
+      "userName": "Clare",
+      "position": 5,
+      "trophyCount": 20
+    },
+    {
+      "userName": "John",
+      "position": 6,
+      "trophyCount": 10
+    },
+    {
+      "userName": "George",
+      "position": 7,
+      "trophyCount": 7
+    },
+    {
+      "userName": "Vicky",
+      "position": 8,
+      "trophyCount": 5
+    },
+    {
+      "userName": "Luke",
+      "position": 9,
+      "trophyCount": 5
+    },
+    {
+      "userName": "Sophie",
+      "position": 10,
+      "trophyCount": 4
+    }
+  ]
+}

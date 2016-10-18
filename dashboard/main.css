@@ -1,3 +1,7 @@
+body {
+    color: white;
+}
+
 .profile-section {
     background-color: coral;
 }
@@ -9,6 +13,12 @@
 .section {
     display: relative;
     height: 300px;
+    text-align: center;
+}
+
+.section--trophies {
+    display: relative;
+    height: 450px;
     text-align: center;
 }
 .level-number {
@@ -61,8 +71,10 @@
 
 .season {
     display: relative;
-    height: 100px;
+    height: 150px;
     width: 100%;
+    margin: 40px;
+
     /*background-color: seagreen;*/
     display: -webkit-box;
     display: -moz-box;
@@ -78,16 +90,24 @@
     height: 100%;
 }
 
+.circle-container img{
+    width: 112px;
+}
+
+.see-through{
+    opacity: 0.3;
+}
+
 .circle {
-    height: 50px;
-    width: 50px;
-    border: 2px solid #f0672b;
+    height: 130px;
+    width: 130px;
+    border: 8px solid white;
     border-radius: 50%;
     margin: 20px;
 }
 
 .circle span {
-    line-height: 50px;
+    line-height: 115px;
 }
 
 .circle .filled {

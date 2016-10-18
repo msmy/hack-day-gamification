@@ -150,6 +150,8 @@ h1 {
     height: 50px;
     margin: 5px;
     vertical-align: top;
+    border-radius: 10px;
+    line-height: 50px;
 }
 
 #you-may-like__achievements .icon {
